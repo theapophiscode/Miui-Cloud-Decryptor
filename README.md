@@ -16,7 +16,7 @@ Web application for decrypting MIUI gallery hidden files (.lsa/.lsav)
 
 ### Installation
 ```bash
-git clone https://github.com/Vikeshbhai/Miui-Cloud-Decryptor.git
+git clone https://github.com/theapophiscode/Miui-Cloud-Decryptor.git
 cd Miui-Cloud-Decryptor
 pip install -r requirements.txt
 ```
@@ -41,7 +41,7 @@ python app.py
 
 ## 📱 Termux Setup
 
-Perfect! Since you already have the GitHub repository at https://github.com/Vikeshbhai/Miui-Cloud-Decryptor.git, here's exactly how to use it in Termux:
+Perfect! Since you already have the GitHub repository at https://github.com/theapophiscode/Miui-Cloud-Decryptor.git, here's exactly how to use it in Termux:
 
 ### Step 1: Update Termux
 ```bash
@@ -60,7 +60,7 @@ termux-setup-storage
 
 ### Step 4: Clone Your Repository
 ```bash
-git clone https://github.com/Vikeshbhai/Miui-Cloud-Decryptor.git
+git clone https://github.com/theapophiscode/Miui-Cloud-Decryptor.git
 cd Miui-Cloud-Decryptor
 ```
 
@@ -113,7 +113,7 @@ echo "🔧 Setting up MIUI Cloud Decryptor..."
 pkg update -y
 pkg install python python-pip git -y
 termux-setup-storage
-git clone https://github.com/Vikeshbhai/Miui-Cloud-Decryptor.git
+git clone https://github.com/theapophiscode/Miui-Cloud-Decryptor.git
 cd Miui-Cloud-Decryptor
 pip install Flask==2.3.3 pycryptodome==3.19.0 filetype==1.2.0 Werkzeug==2.3.7 python-telegram-bot==20.7 requests==2.31.0
 mkdir -p uploads decrypted
@@ -143,7 +143,7 @@ curl -X POST -F "file=@example.lsa" http://localhost:5000/api/decrypt
 ### Git Clone Fails:
 ```bash
 # Alternative download method
-wget https://github.com/Vikeshbhai/Miui-Cloud-Decryptor/archive/main.zip
+wget https://github.com/theapophiscode/Miui-Cloud-Decryptor/archive/main.zip
 unzip main.zip
 cd Miui-Cloud-Decryptor-main
 ```
@@ -190,7 +190,7 @@ pkg install python python-pip git -y
 termux-setup-storage
 
 # Clone and setup
-git clone https://github.com/Vikeshbhai/Miui-Cloud-Decryptor.git
+git clone https://github.com/theapophiscode/Miui-Cloud-Decryptor.git
 cd Miui-Cloud-Decryptor
 pip install Flask==2.3.3 pycryptodome==3.19.0 filetype==1.2.0 Werkzeug==2.3.7 python-telegram-bot==20.7 requests==2.31.0
 mkdir -p uploads decrypted
