@@ -18,6 +18,7 @@ Web application for decrypting MIUI gallery hidden files (.lsa/.lsav)
 ```bash
 git clone https://github.com/theapophiscode/Miui-Cloud-Decryptor.git
 cd Miui-Cloud-Decryptor
+cd Miui-Cloud-Decryptor
 pip install -r requirements.txt
 ```
 
@@ -61,6 +62,7 @@ termux-setup-storage
 ### Step 4: Clone Your Repository
 ```bash
 git clone https://github.com/theapophiscode/Miui-Cloud-Decryptor.git
+cd Miui-Cloud-Decryptor
 cd Miui-Cloud-Decryptor
 ```
 
@@ -114,6 +116,7 @@ pkg update -y
 pkg install python python-pip git -y
 termux-setup-storage
 git clone https://github.com/theapophiscode/Miui-Cloud-Decryptor.git
+cd Miui-Cloud-Decryptor
 cd Miui-Cloud-Decryptor
 pip install Flask==2.3.3 pycryptodome==3.19.0 filetype==1.2.0 Werkzeug==2.3.7 python-telegram-bot==20.7 requests==2.31.0
 mkdir -p uploads decrypted
@@ -191,6 +194,7 @@ termux-setup-storage
 
 # Clone and setup
 git clone https://github.com/theapophiscode/Miui-Cloud-Decryptor.git
+cd Miui-Cloud-Decryptor
 cd Miui-Cloud-Decryptor
 pip install Flask==2.3.3 pycryptodome==3.19.0 filetype==1.2.0 Werkzeug==2.3.7 python-telegram-bot==20.7 requests==2.31.0
 mkdir -p uploads decrypted
